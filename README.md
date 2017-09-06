@@ -11,9 +11,13 @@ d <- c(rstan::lookup("_lpmf$")$StanFunction, sub("_lpmf", "", rstan::lookup("_lp
           rstan::lookup("_rng$")$StanFunction, sub("_rng", "", rstan::lookup("_rng$")$StanFunction))
 
 d <- unique(d)
+
 f <- rstan::lookup("[:alnum:]*")$StanFunction
+
 f <- unique(f)
+
 f <- f[-grep("operator", f)]
+
 f <- f[!(f %in% d)]
 
 The other keywords were gathered from the Stan Manual.
