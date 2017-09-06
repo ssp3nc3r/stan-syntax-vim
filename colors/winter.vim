@@ -7,7 +7,7 @@ highlight clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "zazen"
+let colors_name = "winter"
 
 hi Normal       guifg=#cccccc          guibg=#000000   gui=NONE
 hi CursorLine   guifg=NONE             guibg=#555555   gui=NONE
@@ -19,7 +19,7 @@ hi String       guifg=#838383          guibg=NONE      gui=NONE
 hi Type         guifg=#eeeeee          guibg=NONE      gui=bold
 hi Conditional  guifg=#787878          guibg=NONE      gui=bold
 hi Todo         guifg=#ff0000          guibg=#220000   gui=underline
-hi Comment      guifg=#777777          guibg=NONE      gui=NONE
+hi Comment      guifg=#0087af          guibg=NONE      gui=NONE
 hi PmenuSel     guifg=#000000          guibg=#a9a9aa   gui=bold
 hi Special      guifg=#868585          guibg=NONE      gui=NONE
 hi Identifier   guifg=#ffffff          guibg=NONE      gui=bold
@@ -101,7 +101,7 @@ if &t_Co > 255
    hi  Type               ctermfg=255        ctermbg=NONE       cterm=bold
    hi  Conditional        ctermfg=243        ctermbg=NONE       cterm=bold
    hi  Todo               ctermfg=9          ctermbg=NONE       cterm=underline
-   hi  Comment            ctermfg=243        ctermbg=NONE       cterm=NONE
+   hi  Comment            ctermfg=31        ctermbg=NONE       cterm=NONE
    hi  PmenuSel           ctermfg=0          ctermbg=248        cterm=bold
    hi  Special            ctermfg=244        ctermbg=NONE       cterm=NONE
    hi  Identifier         ctermfg=15         ctermbg=NONE       cterm=bold
