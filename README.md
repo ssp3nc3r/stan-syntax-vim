@@ -1,6 +1,10 @@
 # stan-syntax-vim
 Stan syntax highlighting for vim
 
+To set this up for vim, 
+1. create .vim directory in home directory(~), and within that diretory, create three other directories: colors, ftdetect, and syntax.
+2. Add the files provided herein.
+
 The Stan names of functions, distributions and such identified in the syntax file for vim were pulled from RStan version 2.16.2 using `rstan::lookup()` in R as follows:
 
 ```
